@@ -13,8 +13,8 @@ class Content extends Component {
                 <h2>My projects 👇🏼</h2>
                 <h2>My links 👇🏼</h2>
                 <ul>
-                    <li><Link to="github.com/sothbak">GitHub</Link></li>
-                    <li><Link to="https://www.linkedin.com/in/baksothearoth/">LinkedIn</Link></li>
+                    <li><a href="https://www.github.com/sothbak">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/baksothearoth/">LinkedIn</a></li>
                 </ul>
             </div>
         )
