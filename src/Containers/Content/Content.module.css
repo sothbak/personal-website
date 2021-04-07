@@ -1,27 +1,59 @@
 .Content {
-    display: block;
-    font-family: Monaco, monospace;;
+    display: inline-block;
+    font-family: Courier, monospace;;
     height: 100px;
     margin: 20px;
     padding: 20px;
 }
 
 .h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: black;
+    font-family: Courier, monospace;
+    display: inline-block;
+    overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(26, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 75% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+.header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
 }
 
 .p {
     color: rgb(255, 255, 255);
+    width: 65%;
 }
 
-ul {
+.ul1 {
     list-style-type: square;
 }
 
